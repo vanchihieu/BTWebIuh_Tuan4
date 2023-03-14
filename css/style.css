@@ -42,7 +42,6 @@
 }
 
 .item {
-    width: 32px;
     margin-top: 50px;
 }
 
@@ -68,6 +67,10 @@
     display: flex;
     align-items: center;
     color: red;
+}
+
+.header_title .record:hover {
+    cursor: pointer;
 }
 
 .record .dot {
@@ -133,13 +136,13 @@
 .big_title-content {
     background-color: #757679;
     width: 160px;
-    height: 31px;
+    height: 36px;
     color: white;
     margin-left: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .image_big {
@@ -209,6 +212,13 @@
     color: white;
     text-align: center;
     line-height: 44px;
+    transition: all .25s linear;
+}
+
+.devices .endMeeting:hover {
+    background-color: #e34d73;
+    cursor: pointer;
+    color: white;
 }
 
 .main_title {
@@ -280,12 +290,13 @@
 .sub_content-bot {
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin: 5px 0;
     justify-content: space-around;
 }
 
 .sub_content-bot .lorem {
     margin-left: 50px;
+    font-size: 15px;
 }
 
 .sub_content-bot .buton {
@@ -302,4 +313,37 @@
 
 .sub_content-bot .send {
     /* padding-top: 30px; */
+}
+
+.plus {
+    margin-right: 5px;
+}
+
+.Right_contentBottom .chat {
+    margin: 40px 0;
+    font-size: 26px;
+}
+
+#left_above .cam {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    background-color: #e34d73;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+#left_above>* {
+    cursor: pointer;
+}
+
+.image_big img {
+    cursor: pointer;
+}
+
+.devices img {
+    cursor: pointer;
 }
