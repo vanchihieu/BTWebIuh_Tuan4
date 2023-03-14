@@ -193,3 +193,20 @@
     text-align: center;
     line-height: 25px !important;
 }
+
+.devices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.endMeeting {
+    width: 127px;
+    background-color: red;
+    height: 44px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    line-height: 44px;
+}
